@@ -13,6 +13,9 @@ ulElement.addEventListener( 'click', (evt) => {
     
     // evt.currentTarget = UL element
     // evt.target = LI element that was clicked inside the UL element
+
+    // evt.eventPhase = 0 -> none, 1 -> capturing, 2 -> target, 3 -> bubbling
+    
 });
 
 // NOTE:  when something is left-clicked, the event types will be in this sequence:  mousedown, mouseup, clicked
